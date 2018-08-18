@@ -6,8 +6,6 @@
 *.pid
 *.seed
 *.sublime-*
-index.html
-add_costumers.html
 *.swo
 *.swp
 *.tgz
