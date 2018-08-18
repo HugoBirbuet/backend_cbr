@@ -1,0 +1,47 @@
+{
+  "name": "Product",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "number"
+    },
+    "expiration": {
+      "type": "string"
+    },
+    "fk_category": {
+      "type": "number"
+    },
+    "fk_supplier": {
+      "type": "number"
+    },
+    "fk_weightpresentation": {
+      "type": "number"
+    },
+    "soft_delete": {
+      "type": "boolean"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_by": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db_cbr"
+  },
+  "AccessToken": {
+    "dataSource": "db_cbr",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db_cbr",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db_cbr",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db_cbr",
+    "public": false
+  },
+  "Customer": {
+    "dataSource": "db_cbr",
+    "public": true
+  },
+  "Category": {
+    "dataSource": "db_cbr",
+    "public": true
+  },
+  "Weight_presentation": {
+    "dataSource": "db_cbr",
+    "public": true
+  },
+  "Supplier": {
+    "dataSource": "db_cbr",
+    "public": true
+  },
+  "Product": {
+    "dataSource": "db_cbr",
+    "public": true
+  }
+}
